@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "CapiscoExpo",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

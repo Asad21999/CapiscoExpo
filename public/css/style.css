@@ -1,0 +1,81 @@
+.img{
+    height: 25em;
+    width: 25em;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+}
+.form{
+    display:none;
+    height: 40vh;
+    width: 60vh;
+    position: fixed;
+    text-align: center;
+    top: 40vh;
+    z-index: 2;
+    right: 2vh;
+}
+/* .form>sub{
+    position: absolute;
+    bottom: 25rem;
+} */
+.submit{
+    margin: 1em;
+    margin-left: 27%;
+}
+.closse{
+    position: absolute;
+    right: 27%;
+    border-radius: 100%;
+    width: 1.5em;
+    height: 1.8em;
+    z-index: 3;
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;
+}
+
+
+@media (max-width:400px) {
+    .form{
+        display:none;
+        height: 47vh;
+        width: 100%;
+        position: fixed;
+        text-align: center;
+        background-color: transparent;
+        border-radius: 2px;
+        top: 20vh;
+        z-index: 4;
+        padding: 1em;
+    
+    }
+    /* .form>sub{
+        position: absolute;
+        bottom: 28rem;
+        right: 0rem;
+        width: 4rem;
+    } */
+    .closse {
+        position: absolute;
+      
+        left: 95%;
+        border-radius: 100%;
+        width: 2.5rem;
+        height: 2.5rem;
+        z-index: 3;
+        background-color: red;
+        color: white;
+        top: -15px;
+      }
+      .submit{
+        margin: 1em;
+        margin-left: 8%;
+    }
+    .img{
+        height: 25em;
+        width: 100%;
+    }
+        
+}
